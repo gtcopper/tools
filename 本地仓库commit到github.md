@@ -27,9 +27,17 @@
     * 复制github仓库(xxx)地址  如https://github.com/gtcopper/xxx.git
     * 将本地仓库添加到远程仓库github上
     	+ **$ git remote add origin https://github.com/gtcopper/xxx.git**
+    	+ 倘若需要变更远程仓库地址，有以下方法(进入根目录):
+    	  + 方法一通过命令直接修改远程地址 : ``git remote 查看所有远程仓库， git remote xxx 查看指定远程仓库地址 ``
+			``git remote set-url origin http:github.com/gtcopper/xxx.git ``
+		  + 方法二 : 通过命令先删除再添加远程仓库 
+		  +  ``git remote rm origin``
+     ``git remote add origin http:github.com/gtcopper/xxx.git``
+		       
+		     
     * 上传本地代码(仓库)到github
     	+ **$ git push -u origin master**
 5. 上传成功    
-** 注意：git是不能管理空的文件夹的，文件夹里必须有文件才能上传。 **
+**注意：git是不能管理空的文件夹的，文件夹里必须有文件才能上传。**
 
 参考来源:[本地仓库commit到github远程仓库](https://www.jianshu.com/p/c70ca3a02087)
