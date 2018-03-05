@@ -3,7 +3,7 @@
 1. 在**Git Bah**中输入以下命令
 	* **$ git config --global user.name "github账号"**
 	* **$ git config --global user.email "github邮箱"**
-2. 设置**SSH Key**
+2. 设置**SSH Key**(若配置好跳转到第3步)
     * **生成ssh key**
       + 检查是否已生成ssh key  : **$ cd ~/.ssh**  若返回的**ls**有2个文件(**id\_rsa**和**id\_rsa.pub**)，则秘钥已经生成,反之则没有生成，需要自己生成.
       + **生成秘钥** :  **$ ssh-keygen -t rsa -C "github邮箱"**
