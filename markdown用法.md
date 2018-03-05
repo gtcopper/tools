@@ -19,13 +19,13 @@
   + 使用数字+点+空格创建有序列表。
   + 列表可以嵌套，使用时在嵌套列表前空格，这篇文章的列表使用了嵌套列表。
 6. **链接**
-	+ [用markdown写下你的第一个md文档](http://www.jianshu.com/p/de9c98bba332) 
-	+ 也可以直接用尖括号包含网址的方式<http://www.jianshu.com/p/de9c98bba332>来构成链接 
+	+ \[用markdown写下你的第一个md文档](http://www.jianshu.com/p/de9c98bba332) 
+	+ 也可以直接用尖括号包含网址的方式&lt;http://www.jianshu.com/p/de9c98bba332&gt;来构成链接 
 7. **图片**
 	+ \!\[图片名称](图片地址) 如下图片:
 ![1920-549x309](/1920-549x309.jpg)
 	+ 也可以使用html方式来指定图片大小
-	<img src="/1920-549x309.jpg" >
+	&lt;img src="/1920-549x309.jpg" width="200" height="200" alt="picture"&gt;
 8. **代码段**
   	+ ```print("代码段");```
 9. **字体样式**
